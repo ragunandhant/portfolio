@@ -1,0 +1,319 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    gap: 2px;
+    flex-direction: row-reverse;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid aliceblue;
+    box-shadow: 1px 0.5px 2px;
+    position: sticky;
+    top: 0;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#icon {
+    float: right;
+    flex-direction: row;
+}
+
+* {
+    margin: 0px 0px 0px 0px;
+}
+
+.nav a {
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-home {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    height: 25px;
+    display: inline-flex;
+    text-align: center;
+    font-size: 125%;
+    font-weight: 650;
+    gap: 2px;
+    padding-right: 25px;
+}
+
+.nav a:hover {
+    color: darkblue;
+    border-bottom: 2px darkblue solid;
+    text-align: center;
+}
+
+.body {
+    background-image: url("../image/bg.jpeg");
+    background-position: center;
+    padding-bottom: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: fit-content;
+}
+
+.body img {
+    position: absolute;
+    top: 25%;
+    left: 900px;
+}
+
+.body img:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    border-radius: 50%;
+}
+
+.body span {
+    padding-left: 25px;
+    font-size: 50px;
+    color: rgb(76, 19, 130);
+}
+
+.body-txt,
+.body-txt span {
+    padding-left: 25px;
+    font-size: 150px;
+}
+
+.body a {
+    font-size: 30px;
+    color: white;
+    background-color: darkblue;
+    margin-left: 40px;
+    padding: 20px;
+    min-width: 100px;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* about*/
+
+.about {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 23px;
+}
+
+#about-span {
+    font-family: Arial, sans-serif;
+    font-size-adjust: inherit;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    border-top: 100px;
+}
+
+.about img {
+    position: absolute;
+    left: 100px;
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+.about img:hover {
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.about-info {
+    border-radius: 12%;
+    height: 250px;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-family: Georgia, serif;
+}
+
+.about-info p {
+    margin-top: 2%;
+    word-spacing: 2px;
+    font-size: 19px;
+}
+
+.about-resume {
+    padding: 1.7rem 3rem;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    margin-left: 50rem;
+    margin-right: 23rem;
+    margin-top: 6rem;
+    border-radius: 10%;
+    font-size: 19px;
+}
+
+.about-resume a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 23px;
+}
+
+.skill {
+    background-image: url("../image/bg.jpeg");
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+
+.skill-box {
+    padding-bottom: 10%;
+}
+
+.skill-box-left {
+    padding-bottom: 10%;
+}
+
+.skill p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.skill-content-left {
+    padding-left: 10px;
+    margin-right: 41%;
+}
+
+.skill-box-left img {
+    float: right;
+    padding-right: 30%;
+}
+
+.skill h1 {
+    padding-left: 50%;
+    font-size: 50px;
+    padding-bottom: 8%;
+}
+
+.skill-box h2,
+.skill-box-left h2 {
+    color: purple;
+}
+
+.skill-box img {
+    float: left;
+    border-radius: 35px;
+    padding-left: 35%;
+}
+
+.skill-content {
+    padding-left: 10%;
+    margin-left: 41%;
+}
+
+
+/*education*/
+
+.education {
+    background-image: url("../image/ed.jpg");
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 500px;
+    padding-top: 25px;
+}
+
+.education h1 {
+    padding-left: 40%;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.contact {
+    background-color: black;
+    padding: 75px;
+}
+
+.contact-box {
+    border-bottom: 2px solid #888888;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+}
+
+#contact-box-icon {
+    background-color: black;
+    color: black;
+    margin: 0px;
+}
+
+#contact-box-icon a:hover {
+    color: gold;
+}
+
+.contact-box span {
+    color: gray;
+    padding-left: 13px;
+    font-size: 20px;
+}
+
+.contact-box span:hover {
+    color: gold;
+}
+
+.contact-box ul {
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-top: 20px;
+    display: flex;
+    color: #999;
+}
+
+.contact-box li {
+    font-size: 24px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+    width: 32px;
+    height: 32px;
+    border: #999 1px solid;
+    border-radius: 50%;
+}
+
+.fa.fa-facebook,
+.fa.fa-twitter {
+    color: #999;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+}
